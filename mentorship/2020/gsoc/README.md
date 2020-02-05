@@ -7,10 +7,10 @@ We encourage you to be creative when submitting proposals for GSoC!  All ideas w
 
 Here are a few of our own ideas.
 
-1. Help with the documentation redesign (easy/medium)
-2. GraphQL Compatibility Acceptance Tests (medium)
-3. GraphiQL Plugins (medium)
-4. Add streaming support and error recovery to reference GraphQL parser (medium/hard)
+1. [Help with the documentation redesign (easy/medium)](#1-help-with-the-documentation-redesign-easymedium)
+2. [GraphQL Compatibility Acceptance Tests (medium)](#2-graphql-compatibility-acceptance-tests-medium)
+3. [GraphiQL Plugins (medium)](#3-graphiql-plugins-medium)
+4. [Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#4-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
 
 Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org).
 
