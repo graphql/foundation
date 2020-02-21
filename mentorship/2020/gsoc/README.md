@@ -12,7 +12,7 @@ Here are a few of our own ideas.
 3. [GraphiQL Plugins (medium)](#3-graphiql-plugins-medium)
 4. [Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#4-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
 
-Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org).
+Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org).  You can also find us and ask questions to the mentors in the [#gsoc](https://graphql.slack.com/archives/CUB2DBYTF) channel on the [GraphQL Slack](https://graphql.slack.com). ([get an invite](https://slack-invite.graphql.org))
 
 ---
 
