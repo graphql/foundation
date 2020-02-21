@@ -7,32 +7,15 @@ We encourage you to be creative when submitting proposals for GSoC!  All ideas w
 
 Here are a few of our own ideas.
 
-1. [Help with the documentation redesign (easy/medium)](#1-help-with-the-documentation-redesign-easymedium)
-2. [GraphQL Compatibility Acceptance Tests (medium)](#2-graphql-compatibility-acceptance-tests-medium)
-3. [GraphiQL Plugins (medium)](#3-graphiql-plugins-medium)
-4. [Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#4-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
+1. [GraphQL Compatibility Acceptance Tests (medium)](#2-graphql-compatibility-acceptance-tests-medium)
+2. [GraphiQL Plugins (medium)](#3-graphiql-plugins-medium)
+3. [Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#4-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
 
 Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org).
 
 ---
 
-### 1. Help with the documentation redesign (easy/medium)
-
-**Implement and be a valuable contributor to the redesigned [https://graphql.org](https://graphql.org)**
-
-We’re looking to re-design the GraphQL website, and that is a good time to re-look over all the way in which we present the language and documentation. 
-You’ll be working with an experienced designer, who can provide reasonably clear briefs (they are a spare time contributor) where you implement the designs into HTML, and then integrate it into the site. 
-You’d get to join GraphQL working groups to give updates, write about your work on the GraphQL blog and learn skills applicable to working with the web,
-
-**Expected outcomes:** You learn how to create/improve/ship a complex documentation website for a non-trivial language.
-
-**Skills required/preferred:** JavaScript, APIs, HTML/CSS
-
-**Mentor:** Orta Therox, others
-
----
-
-### 2. GraphQL Compatibility Acceptance Tests (medium)
+### 1. GraphQL Compatibility Acceptance Tests (medium)
 
 **Build a set of compatibility acceptance tests for libraries that implement the GraphQL specification.**
 
@@ -46,7 +29,7 @@ Reference implementation of GraphQL (graphql-js) contains almost two thousand te
 
 ---
 
-### 3. GraphiQL Plugins (medium)
+### 2. GraphiQL Plugins (medium)
 
 **Pick from a list of in-demand GraphiQL plugins and help us build them!**
 
@@ -60,7 +43,7 @@ GraphiQL is introducing a new plugin system that will allow users to extend and 
 
 ---
 
-### 4. Add streaming support and error recovery to reference GraphQL parser (medium/hard)
+### 3. Add streaming support and error recovery to reference GraphQL parser (medium/hard)
 
 **Make reference GraphQL parser usable for IDE-like application by adding error recovery and streaming support.**
 
