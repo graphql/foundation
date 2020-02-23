@@ -1,17 +1,23 @@
 # GraphQL / Google Summer of Code 2020
 
+The [GraphQL Foundation](https://foundation.graphql.org) has been accepted as a mentor for the [2020 Google Summer of Code.](https://summerofcode.withgoogle.com/) We encourage you to apply!
 
-The [GraphQL Foundation](https://foundation.graphql.org) has been accepted as a mentor for the [2020 Google Summer of Code.](https://summerofcode.withgoogle.com/)  We encourage you to apply!
+We encourage you to be creative when submitting proposals for GSoC! All ideas will be considered. If you are familiar with GraphQL and have an idea which isn't on the list, please feel free to submit it as a proposal.
 
-We encourage you to be creative when submitting proposals for GSoC!  All ideas will be considered.  If you are familiar with GraphQL and have an idea which isn't on the list, please feel free to submit it as a proposal.
+Here is a list of all current and deferred proposals, as well as information on submitting them, and resources for learning about GraphQL and the ecosystem
 
-Here are a few of our own ideas.
+- [GraphQL / Google Summer of Code 2020](#graphql--google-summer-of-code-2020)
+    - [1. GraphQL Compatibility Acceptance Tests (medium)](#1-graphql-compatibility-acceptance-tests-medium)
+    - [2. GraphiQL Plugins (medium)](#2-graphiql-plugins-medium)
+    - [3. Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#3-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
+  - [Deferred for another mentorship opportunity](#deferred-for-another-mentorship-opportunity)
+    - [1. Help with the documentation redesign (easy/medium)](#1-help-with-the-documentation-redesign-easymedium)
+  - [Submitting Mentorship Proposals](#submitting-mentorship-proposals)
+  - [Resources](#resources)
+    - [Official GraphQL Documentation](#official-graphql-documentation)
+    - [Reccomended Links](#reccomended-links)
 
-1. [GraphQL Compatibility Acceptance Tests (medium)](#1-graphql-compatibility-acceptance-tests-medium)
-2. [GraphiQL Plugins (medium)](#2-graphiql-plugins-medium)
-3. [Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#3-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
-
-Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org).  You can also find us and ask questions to the mentors in the [#gsoc](https://graphql.slack.com/archives/CUB2DBYTF) channel on the [GraphQL Slack](https://graphql.slack.com). ([get an invite](https://slack-invite.graphql.org))
+Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org). You can also find us and ask questions to the mentors in the [#gsoc](https://graphql.slack.com/archives/CUB2DBYTF) channel on the [GraphQL Slack](https://graphql.slack.com). ([get an invite](https://slack-invite.graphql.org))
 
 ### 1. GraphQL Compatibility Acceptance Tests (medium)
 
@@ -31,23 +37,41 @@ Reference implementation of GraphQL (graphql-js) contains almost two thousand te
 
 **Pick from a list of in-demand GraphiQL plugins and help us build them!**
 
-GraphiQL is introducing a new plugin system that will allow users to extend and customize the GraphQL development experience substantially. Using these new interfaces, users can choose from a list of proposed plugins that users have asked for and specs, and execute and iterate on them. They can be anything from viewing results in a map, to schema explorer features, to additional commands and code actions.
+> **Status:** Plugin framework will be available with documentation and further specs for plugin projects by April 2020 at latest. Please check back here for updates.
+
+GraphiQL is introducing a new plugin system that will allow users to extend and customize the GraphQL development experience substantially. Using these new interfaces, users can choose from a list of proposed plugins that users have asked for and specs, and execute and iterate on them. They can be anything from viewing results in a map, to schema explorer features, as well as new commands and code actions.
+
+**Number of Participants:** The more, the merrier!
 
 **Expected outcomes:** Introduce Pull Requests for plugins, potentially finish and publish some within the time frame
 
-**Skills required/preferred:** Javascript, React
+**Skills required/preferred:** Javascript, React, Typescript preferred
 
 **Mentors:** Rikki Schulte, Laura Buns
+
+**Related Issues:**
+
+- discussion/proposal issues: #829, #978
+- related/preceeding projects:
+  - GraphiQL React 16 Migration + Context - https://github.com/graphql/graphiql/projects/4
+  - Redesign, Layout & Themeing System - https://github.com/graphql/graphiql/projects/11
+  - renderGraphiQL function and middlewares - https://github.com/graphql/graphiql/projects/8
 
 ---
 
 ### 3. Add streaming support and error recovery to reference GraphQL parser (medium/hard)
 
-**Make reference GraphQL parser usable for IDE-like application by adding error recovery and streaming support.**
+> **Status:** It's still under consideration whether this should be a GSOC initiative, as it might be important to have this accomplished before the summer begins.
+
+**Make reference GraphQL parser usable for IDE-like applications by adding error recovery and streaming support.**
 
 At the moment we have two parser implementations: reference parser from `graphql-js` package which is very simple but fully spec-compliant and `graphql-language-service-parser` which is more advanced (error recovery, streaming, etc.) but is outdated and is hard to support. The challenge of the project would be to bring features of advanced parser into reference parser without losing the performance or code-readability.
 
-**Expected outcomes:** Switch both GraphiQL and GraphQL LSP server to use reference parser from `grahphql-js`. In the process, you will learn a lot about GraphQL grammar and advance parsing technics.
+**Expected outcomes:** Switch both GraphiQL and GraphQL LSP server to use reference parser from `grahphql-js`. In the process, you will learn a lot about GraphQL grammar and advanced parsing techniques.
+
+The result would be both the existing full text parser in `graphql/language/parser`, as well as a new advanced streaming parser interface, called something like `parseStream`, that would behave like the interface in `graphql-language-service-parser`
+
+**Number of Participants:** A single developer
 
 **Skills required/preferred:** JavaScript
 
@@ -55,12 +79,14 @@ At the moment we have two parser implementations: reference parser from `graphql
 
 ## Deferred for another mentorship opportunity
 
+---
+
 ### 1. Help with the documentation redesign (easy/medium)
 
 **Implement and be a valuable contributor to the redesigned [https://graphql.org](https://graphql.org)**
 
-We’re looking to re-design the GraphQL website, and that is a good time to re-look over all the way in which we present the language and documentation. 
-You’ll be working with an experienced designer, who can provide reasonably clear briefs (they are a spare time contributor) where you implement the designs into HTML, and then integrate it into the site. 
+We’re looking to re-design the GraphQL website, and that is a good time to re-look over all the way in which we present the language and documentation.
+You’ll be working with an experienced designer, who can provide reasonably clear briefs (they are a spare time contributor) where you implement the designs into HTML, and then integrate it into the site.
 You’d get to join GraphQL working groups to give updates, write about your work on the GraphQL blog and learn skills applicable to working with the web,
 
 **Expected outcomes:** You learn how to create/improve/ship a complex documentation website for a non-trivial language.
@@ -69,4 +95,40 @@ You’d get to join GraphQL working groups to give updates, write about your wor
 
 **Mentor:** Orta Therox, others
 
+---
 
+## Submitting Mentorship Proposals
+
+If you would like to submit a proposal for an initiative that you would like to mentor, feel free to open a PR to add another section to this document above.
+
+```md
+# My Example Initiative
+
+> **Status:** > **You can begin researching and submitting for this PR now**
+
+<description>
+
+**Expected outcomes:**
+
+**Number of Participants:**
+
+**Skills required/preferred:** JavaScript
+
+**Mentor:** your name and github account
+
+**Related Issues:**
+```
+
+---
+
+## Resources
+
+### Official GraphQL Documentation
+
+- GraphQL Language: https://graphql.org/learn
+- GraphQL JS library: https://graphql.org/graphql-js
+
+### Reccomended Links
+
+- How to GraphQL: https://www.howtographql.com/
+- Awesome GraphQL: https://github.com/chentsulin/awesome-graphql
