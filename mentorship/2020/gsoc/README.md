@@ -65,7 +65,7 @@ GraphiQL is introducing a new plugin system that will allow users to extend and 
 
 At the moment we have two parser implementations: reference parser from `graphql-js` package which is very simple but fully spec-compliant and `graphql-language-service-parser` which is more advanced (error recovery, streaming, etc.) but is outdated and is hard to support. The challenge of the project would be to bring features of advanced parser into reference parser without losing the performance or code-readability.
 
-**Expected outcomes:** Switch both GraphiQL and GraphQL LSP server to use the reference parser from `grahphql-js`. In the process, you will learn a lot about GraphQL grammar and advanced parsing techniques.
+**Expected outcomes:** Switch both GraphiQL and GraphQL LSP server to use the reference parser from `grahphql-js` deprecating `graphql-language-service-parser`. In the process, you will learn a lot about GraphQL grammar and advanced parsing techniques.
 
 **Skills required/preferred:** JavaScript
 
