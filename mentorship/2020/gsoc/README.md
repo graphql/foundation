@@ -61,25 +61,17 @@ GraphiQL is introducing a new plugin system that will allow users to extend and 
 
 ### 3. Add streaming support and error recovery to reference GraphQL parser (medium/hard)
 
-> **Status:** It's still under consideration whether this should be a GSOC initiative, as it might be important to have this accomplished before the summer begins.
-
 **Make reference GraphQL parser usable for IDE-like applications by adding error recovery and streaming support.**
 
-At the moment we have two parser implementations: reference parser from `graphql-js` package which is very simple but fully spec-compliant and `graphql-language-service-parser` which is more advanced (error recovery, streaming, etc.) but is outdated and is hard to support. The challenge of the project would be to bring features of advanced parser into reference parser without losing the performance or code-readability.
+At the moment we have two parser implementations: a reference parser from the `graphql-js` package which is very simple but fully spec-compliant and `graphql-language-service-parser` which is more advanced (error recovery, streaming, etc.) but is outdated and is hard to support for the graphql-js team. The challenge of the project would be to bring features of advanced parser into reference parser without losing the performance or code-readability.
 
-**Expected outcomes:** Switch both GraphiQL and GraphQL LSP server to use reference parser from `grahphql-js`. In the process, you will learn a lot about GraphQL grammar and advanced parsing techniques.
-
-The result would be both the existing full text parser in `graphql/language/parser`, as well as a new advanced streaming parser interface, called something like `parseStream`, that would behave like the interface in `graphql-language-service-parser`
-
-**Number of Participants:** A single developer
+**Expected outcomes:** Switch both GraphiQL and GraphQL LSP server to use the reference parser from `grahphql-js` deprecating `graphql-language-service-parser`. In the process, you will learn a lot about GraphQL grammar and advanced parsing techniques.
 
 **Skills required/preferred:** JavaScript
 
 **Mentor:** Ivan Goncharov
 
 ## Deferred for another mentorship opportunity
-
----
 
 ### 1. Help with the documentation redesign (easy/medium)
 
@@ -109,8 +101,6 @@ If you would like to submit a proposal for an initiative that you would like to 
 <description>
 
 **Expected outcomes:**
-
-**Number of Participants:**
 
 **Skills required/preferred:** JavaScript
 
