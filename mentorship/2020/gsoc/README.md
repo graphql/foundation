@@ -10,6 +10,7 @@ Here is a list of all current and deferred proposals, as well as information on 
     - [1. GraphQL Compatibility Acceptance Tests (medium)](#1-graphql-compatibility-acceptance-tests-medium)
     - [2. GraphiQL Plugins (medium)](#2-graphiql-plugins-medium)
     - [3. Add streaming support and error recovery to reference GraphQL parser (medium/hard)](#3-add-streaming-support-and-error-recovery-to-reference-graphql-parser-mediumhard)
+    - [4. Build on GraphQL SQL interface (medium)](#4-build-on-graphql-sql-interface-medium)
   - [Deferred for another mentorship opportunity](#deferred-for-another-mentorship-opportunity)
     - [1. Help with the documentation redesign (easy/medium)](#1-help-with-the-documentation-redesign-easymedium)
   - [Submitting Mentorship Proposals](#submitting-mentorship-proposals)
@@ -70,6 +71,18 @@ At the moment we have two parser implementations: a reference parser from the `g
 **Skills required/preferred:** JavaScript
 
 **Mentor:** Ivan Goncharov
+
+### 4. Build on GraphQL SQL interface (medium)
+
+**Add standard software features to GraphQL SQL database library**
+
+The graphql-w-persistent library is offering many language features in a database interface, and it is allowing a choice of deployment. Despite many features, the library is missing many important parts in every software. A test suite, faster code, example applications as support, improving the supporting web application, adding language features, finding solutions to combine with other GraphQL services, code refactoring, making public documentations, and a GraphiQL application are a list of tasks over the summer.
+
+**Expected outcomes:** After accomplishing these items, the library is expected to be easier to adopt. Practioners will be able to experiment and find the benefits to using GraphQL queries and querying GraphQL data.
+
+**Skills required/preferred:** I am looking for a mentor who has senior software experience and best-practise knowledge.
+
+**Mentor:** This project is seeking a mentor to collaborate.
 
 ## Deferred for another mentorship opportunity
 
