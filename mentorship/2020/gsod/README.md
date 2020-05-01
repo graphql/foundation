@@ -24,6 +24,39 @@ You’d get to join GraphQL working groups to give updates, write about your wor
 
 **Mentor:** Orta Therox, others
 
+### 2. Extend best practices articles (medium/hard)
+
+**Add best practices articles that would help guide people navigating through the GraphQL ecosystem**
+
+Originally the website [intendend to include](https://github.com/graphql/graphql.github.io/issues/41) more best practices articles.
+We are looking to create the missing articles as we see a lot of people in community struggle to find good and reliable resources about those.
+You’ll be working with The Guild, an experienced group of open source developers and GraphQL foundation members, who will guide you through the concepts and provide you with feedback and reviews.
+You’d get to join GraphQL working groups to give updates, write about your work on the GraphQL blog and learn important, advanced architectual concepts.
+
+**Expected outcomes:** You will grasp important architectual concepts and provide guidance to everyone in the community.
+
+**Skills required/preferred:** APIs, Architecture
+
+**Mentor:** [The Guild](http://github.com/the-guild-org), Others
+
+### 3. Resources sorting logic (medium)
+
+**Create a system to keep resources and links up to date**
+
+Today, the graphql.org website is a central place where do community finds important resources and links to tools, articles and libraries.
+The current issue is that it is hard to keep those up to date as many of those libraries become unmaintained as time goes by.
+There is also no clear guidance and rules for which resources to add and which do not belong on the website.
+The goal of this task is to add a process, that would take as input a list of resources, and at build time would fetch up to date information about each of them (Github stars, commit history, package downloads, etc) and order those resources on the page according to a clear algorithm.
+That would help keep relevant resource up and unmaintained resources down as time goes by.
+You’ll be working with The Guild, an experienced group of open source developers and GraphQL foundation members, who will guide you the technical process and provide you with feedback and reviews.
+You’d get to join GraphQL working groups to give updates, write about your work on the GraphQL blog and learn technical skills for building static websites and API aggregations.
+
+**Expected outcomes:** A reliable system that keeps our community resources relevant and up to date.
+
+**Skills required/preferred:** APIs, Static built websites
+
+**Mentor:** [The Guild](http://github.com/the-guild-org), Others
+
 ---
 
 ## Submitting Documentation Proposals (for prospective mentors)
