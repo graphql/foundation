@@ -10,21 +10,7 @@ If you have any questions, please reach out on the [#gsod]() channel in the [Gra
 
 Here is a list of our proposals, as well as some resources to help you learn about GraphQL.
 
-### 1. Help with the documentation redesign (easy/medium)
-
-**Implement and be a valuable contributor to the redesigned [https://graphql.org](https://graphql.org)**
-
-We’re looking to re-design the GraphQL website, and that is a good time to re-look over all at **the way in which we present the language and documentation**.
-You’ll be working with an experienced designer, who can provide reasonably clear briefs (they are a spare time contributor) where you implement the designs into HTML, and then integrate it into the site.
-You’d get to join GraphQL working groups to give updates, write about your work on the GraphQL blog and learn skills applicable to working with the web,
-
-**Expected outcomes:** You learn how to create/improve/ship a complex documentation website for a non-trivial language.
-
-**Skills required/preferred:** JavaScript, APIs, HTML/CSS
-
-**Mentor:** Orta Therox, others
-
-### 2. Extend best practices articles (medium/hard)
+### 1. Extend best practices articles (medium/hard)
 
 **Add best practices articles that would help guide people navigating through the GraphQL ecosystem**
 
@@ -39,7 +25,7 @@ You’d get to join GraphQL working groups to give updates, write about your wor
 
 **Mentor:** [The Guild](http://github.com/the-guild-org), Others
 
-### 3. Resources sorting logic (medium)
+### 2. Resources sorting logic (medium)
 
 **Create a system to keep resources and links up to date**
 
