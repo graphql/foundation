@@ -33,7 +33,7 @@ For all GraphQL Foundation social activity, we remain a neutral foundation. Exam
 * Owned content is GraphQL Foundation news, blogs, case studies, survey data, etc.
 * Project content is anything sourced from [GraphQL Foundation’s currently hosted projects](https://github.com/graphql), including project news, roadmap updates, new releases, performance/security updates, blogs, conferences slides/videos, etc.
 * Ecosystem content is vendor-neutral and project-impartial sourced from contributors, maintainers, ambassadors, news outlets, etc., including blog posts, news coverage, thought leadership bylines, technology demos, sketch notes, GitHub work, GraphQL-specific Meetups, etc.
-  * CNCF is not able to share anything on our channels that promotes a vendor product or directs to a company website. 
+  * GraphQL Foundation is not able to share anything on our channels that promotes a vendor product or directs to a company website. 
   * Social posts from member company handles and/or vendor channels cannot be shared.
   * RTs are limited to news outlet handles, @graphql, project handles + personal handles.
   * Community content that abides by the channel guidelines + includes insight from/work with more than one GraphQL Foundation project will be prioritized for sharing. 
