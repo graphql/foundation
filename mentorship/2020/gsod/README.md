@@ -53,7 +53,7 @@ The idea is to synchronize it with the source code by generating it from JSDoc c
 
   - improving the quality of existing JSDoc comments
   - cover missing functions/arguments
-  - add examples
+  - adding examples
   
 The next step would be to implement documentation best practices as Introduction, Tutorials, FAQ.
 
@@ -71,7 +71,7 @@ We expect you to be able to write code snippets in JS/TS, understand and explain
 
 **Gather commonly asked questions about GraphQL and work with the core team to document answers**
 
-At the moment, `graphlql.org` doesn't include the FAQ section. This situation leads to the constant stream of repeating questions and also some long-leaving misconceptions in the community.
+At the moment, `graphql.org` doesn't include the FAQ section. This situation leads to the constant stream of repeating questions and also some long-leaving misconceptions in the community.
 
 The FAQ should cover a broad spectrum of questions around GraphQL but should not contain any vendor or language-specific questions. Questions should be split into sections:
 
