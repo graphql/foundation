@@ -43,6 +43,55 @@ You’d get to join GraphQL working groups to give updates, write about your wor
 
 **Mentor:** [The Guild](http://github.com/the-guild-org), Others
 
+### 3. Revamp `graphql-js` docs (medium/hard)
+
+**Review and update existing docs and complete it with tutorials and FAQ**
+
+There is a [documentation for graphql-js](https://graphql.org/graphql-js/), but it is severely outdated because it was handwritten for the first public release four years ago. It was rarely updated since.
+
+The idea is to synchronize it with the source code by generating it from JSDoc comments. GraphQL.js maintainers will handle docs generation so you can focus on:
+
+  - improving the quality of existing JSDoc comments
+  - cover missing functions/arguments
+  - adding examples
+  
+The next step would be to implement documentation best practices as Introduction, Tutorials, FAQ.
+
+You will be working with GraphQL.js maintainers who will be ready to answer your questions and provide technical expertise.
+
+We expect you to be able to write code snippets in JS/TS, understand and explain complex concepts as lexer, parser, AST, etc.
+
+**Expected outcomes:** Full and up to date documentation for `graphql-js`.
+
+**Skills required/preferred:** knowledge of GraphQL, JavaScript/TypeScript
+
+**Mentor:** Ivan Goncharov ([@IvanGoncharov](https://github.com/IvanGoncharov/))
+
+### 4. Create FAQ resource (medium)
+
+**Gather commonly asked questions about GraphQL and work with the core team to document answers**
+
+At the moment, `graphql.org` doesn't include the FAQ section. This situation leads to the constant stream of repeating questions and also some long-leaving misconceptions in the community.
+
+The FAQ should cover a broad spectrum of questions around GraphQL but should not contain any vendor or language-specific questions. Questions should be split into sections:
+
+ - Common section, e.g., "Who is behind GraphQL?"
+ - GraphQL basics, e.g. "[What is the difference between Mutation and Query?](https://stackoverflow.com/questions/48003767/what-is-the-difference-between-mutation-and-query)"
+ - Specification section, e.g., "How to contribute to the specification?"
+ - etc
+ 
+FAQ section will provide a way to link to a specific answer and will benefit all GraphQL maintainers and vendors.
+
+You will source different channels (GitHub Issues, Stackoverflow, Quora) and identify common questions and answers. GraphQL maintainers will help you to come up with the most accurate and helpful answers. 
+
+As the final step, you will integrate the FAQ section into `graphql.org` website.
+
+**Expected outcomes:** Solid FAQ section for `graphql.org` website
+
+**Skills required/preferred:** Basic knowledge of GraphQL, Static built websites
+
+**Mentor:** Ivan Goncharov ([@IvanGoncharov](https://github.com/IvanGoncharov/)), Others
+
 ---
 
 ## Submitting Documentation Proposals (for prospective mentors)
