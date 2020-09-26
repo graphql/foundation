@@ -26,7 +26,7 @@ Examples of unacceptable behavior by participants include:
 
 GraphQL Specification members, project participants and contributors (collectively, "participants") are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-The steering committee of the GraphQL Specification has the right and responsibility  to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any participant for other behaviors that they deem inappropriate, threatening, offensive, or harmful.  
+The steering committee of the GraphQL Specification has the right and responsibility  to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any participant for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 All participants have determined that The Linux Foundation is the most optimal organization to shepherd the development of this project. Participants acknowledge and agree to The Linux Foundation's exclusive right to use "GraphQL" and any other names and trademarks associated with the GraphQL open source project and GraphQL Specification and to authorize others’ use of the marks, establish guidelines for such use, and to delegate these responsibilities. Participants agree not to take any action inconsistent with such rights and to cooperate in any action which The Linux Foundation deems necessary or desirable to prevent confusion or establish or preserve these rights. Participants will not independently adopt, use, or attempt to register any trademarks or trade names that are confusingly similar to these names.
 
@@ -36,7 +36,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Executive Director, or, if the complaint involves the Executive Director, a member of the steering committee. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of  specific enforcement policies may be posted separately. Participants who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the steering committee.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the Executive Director at [report@graphql.org](mailto:report@graphql.org), or, if the complaint involves the Executive Director, a member of the steering committee. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of  specific enforcement policies may be posted separately. Participants who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the steering committee.
 
 ## Attribution
 
