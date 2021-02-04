@@ -47,7 +47,7 @@ Please add your ideas here.
 - GraphQL Language: https://graphql.org/learn
 - GraphQL JS library: https://graphql.org/graphql-js
 
-### Reccomended Links
+### Recommended Links
 
 - How to GraphQL: https://www.howtographql.com/
 - Awesome GraphQL: https://github.com/chentsulin/awesome-graphql
