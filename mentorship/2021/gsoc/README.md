@@ -1,6 +1,10 @@
 # GraphQL / Google Summer of Code 2021
 
-The [GraphQL Foundation](https://foundation.graphql.org) is considering applying to be a mentor for the [2021 Google Summer of Code.](https://summerofcode.withgoogle.com/) We encourage the GraphQL community to propose projects prior to the project application deadline on February 19th, 2021. *Please complete your proposals by February 12th so we have time to review, merge, and submit them.*
+[GraphQL](https://graphql.org) is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+
+The [GraphQL Foundation](https://foundation.graphql.org) is applying to be a mentor for the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/)!
+
+<!--We encourage the GraphQL community to propose projects prior to the project application deadline on February 19th, 2021. *Please complete your proposals by February 12th so we have time to review, merge, and submit them.*
 
 We encourage you to be creative when submitting proposals for GSoC! All ideas will be considered. If you are familiar with GraphQL and have an idea which isn't on the list, please feel free to submit it as a proposal.
 
@@ -32,9 +36,11 @@ As you develop ideas, please add them using this template:
 * ...
 ```
 
-Good luck! If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org). You can also find us and ask questions to the mentors in the [#gsoc](https://graphql.slack.com/archives/CUB2DBYTF) channel on the [GraphQL Slack](https://graphql.slack.com). ([get an invite](https://slack-invite.graphql.org))
+Good luck!-->
 
-### Make queries/SDL outputed by `graphql-js` compatible with `prettier` (Hard)
+If you have questions, please reach out to [gsoc@graphql.org](mailto:gsoc@graphql.org). You can also find us and ask questions to the mentors in the [#gsoc](https://graphql.slack.com/archives/CUB2DBYTF) channel on the [GraphQL Slack](https://graphql.slack.com). ([get an invite](https://slack-invite.graphql.org))
+
+### 1. Make queries/SDL outputed by `graphql-js` compatible with `prettier` (Hard)
 
 **Make GraphQL.js's print/printSchema functions format their output in way that is prettier compatible**
 
@@ -60,7 +66,7 @@ Also since prettier already using our `parse` function, as part of this project,
 
 * [IvanGoncharov](https://github.com/IvanGoncharov)
 
-### Integrate `graphql-relay-js` into `graphql-js`(Medium)
+### 2. Integrate `graphql-relay-js` into `graphql-js`(Medium)
 
 **Move source code from `graphql-relay-js` into `graphql-js` repo to ease maintanance burden**
 
