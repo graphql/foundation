@@ -90,6 +90,28 @@ Biggest challenge would be to bring migrated code to TS and bring it up to `grap
 
 * [IvanGoncharov](https://github.com/IvanGoncharov)
 
+
+### 3. GraphiQL 2.0 Architectural Proposal (proposed by @acao) & GraphiQL Plugins (Medium)
+
+**Develop a robust ecosystem for web based GraphiQL, also to develop the plugins for GraphiQL.**
+
+GraphiQL is introducing a new [architectural proposal](https://github.com/graphql/graphiql/discussions/1787) for 2.0 and a new plugin system that will allow users to extend and customize the GraphQL development experience substantially. Using these new interfaces, users can choose from a list of proposed plugins that users have asked for and specs, and execute and iterate on them. They can be anything from viewing results in a map, to schema explorer features, as well as new commands and code actions.
+
+
+**Expected outcomes**
+
+* Introduce the new ecosystem based on [Architecural Proposal](https://github.com/graphql/graphiql/discussions/1787).
+* Introduce Pull Requests for plugins, potentially finish and publish some within the time frame.
+
+**Skills required/preferred**
+
+* React
+* Typescript
+
+**Mentors**
+
+* [mentor name]
+
 ## Resources
 
 ### Official GraphQL Documentation
