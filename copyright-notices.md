@@ -1,20 +1,14 @@
-<!-- SPDX-License-Identifier: CC-BY-4.0 -->
-
 ## Ownership of Copyrights in GraphQL Project Contributions
 
 When source code, documentation and other content is contributed to a GraphQL Foundation 
 project, the copyrights in those contributions remain owned by the original
 copyright holders.
 
-The copyrights are not _assigned_ to the GraphQL Foundation. Instead, they are _licensed_ for
-distribution as part of the project. Whether a project uses a DCO or a CLA,
-the original copyright holders retain their copyrights.
+The copyrights are not _assigned_ to the GraphQL Foundation distribution as part of the project. Whether a project uses a DCO or a CLA, the original copyright holders retain their copyrights.
 
 ## Copyright Notices
 
-The GraphQL Foundation does not require or recommend that every contributor include their
-copyright notice in contributed files. [See below for more details on why
-not.](#why-not-list-every-copyright-holder)
+The GraphQL Foundation does not require or recommend that every contributor include their copyright notice in contributed files. [isabelschoeps](#why-not-list-every-copyright-holder)
 
 Instead, we recommend using a more general statement in a form similar to the
 following:
